@@ -1,0 +1,127 @@
+/* цвет заголовков #212121; */
+/* цвкет текста #757575; */
+/* цвет фона: #FFFFFF; */
+/* цвет лого #2196F3; и #000000; */
+/* цвет навигации при наведении #2196F3; */
+/* вторичный цвет фона футера и героя background: #2F303A; */
+/* вторичный цвет фона секции 2 background: #F5F4FA; */
+/* акцент #2196F3; */
+/* вторичний цвет текста rgba(255, 255, 255, 0.6) */
+
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color: #2196F3;
+    --background-color: #ffffff;
+    --background-color-1:#2F303A;
+    --background-color-2:#F5F4FA;
+    --secondary-text-color:rgba(255, 255, 255, 0.6);
+
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+}
+
+ul{
+    list-style: none;
+}
+
+/* logo */
+.logo{
+    color: #000000;
+}
+
+/* site nav */
+
+.site-nav .link{
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color) 
+}
+
+/* auth nav */
+
+.auth-nav .link{
+    color: var(--primary-text-color);
+}
+.auth-nav .link:hover, .auth-nav .link:focus{
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero{
+    background-color: var(--background-color-1);
+}
+
+.hero-title{
+    color: #FFFFFF;
+}
+
+/* button */
+
+.button{
+    color: var(--title-text-color);
+    background-color: var(--background-color);
+}
+
+.button.primary{
+    background-color:var(--accent-color);
+    color: var(--background-color);
+}
+
+.button.secondary{
+    background-color:var(--background-color-2);
+    color: var(--title-text-color);
+}
+
+.button.secondary:hover, 
+.button.secondary:focus{
+    background-color:var(--accent-color);
+    color: var(--background-color);
+}
+
+/* section */
+
+.section-title{ 
+    color: var(--title-text-color);
+}
+
+/* features */
+
+.feature-list .title{
+    color: var(--title-text-color);
+}
+
+/* team list */
+
+.team-list .title{
+    color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--background-color-1);
+}
+.logo-footer{
+    color: #ffffff;
+}
+.address .text{
+    color: #FFFFFF;
+}
+.address .link{
+    color: var(--secondary-text-color);
+}
+.address .link:hover,
+.address .link:focus{
+    color: var(--accent-color);
+}
