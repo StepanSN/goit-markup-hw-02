@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-homework2
+# goit-markup-hw-01
+Репозиторий для модуль (#1)
